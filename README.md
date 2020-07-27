@@ -1,4 +1,4 @@
-# React Pomodoro App
+# React MarkDown Editor App
  ![Snapshot](/img/screen.jpg)
 
 ### live
