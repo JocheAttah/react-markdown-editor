@@ -4,13 +4,13 @@ import './App.css';
 
 function App() {
 
-  const [markdown, setMarkdown] = useState('# Supp')
+  const [markdown, setMarkdown] = useState(' > MarkDown Editor ')
 
   return (
     <div className="App">
       <textarea className='App__textarea' onChange={(e) => setMarkdown(e.target.value) } value={markdown} />
 
-      <Reactmarkdown  className='App__preview' source={markdown}/>
+      <Reactmarkdown  className='preview' source={markdown}/>
       
     </div>
   );
